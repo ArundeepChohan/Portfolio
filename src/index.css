@@ -1,5 +1,9 @@
+html{
+  text-align: center;
+}
 body{
   
+  color: #f3f3f3!important;
   margin:0px;
   height:100vh;
   --section-background-color: linear-gradient(
@@ -25,9 +29,8 @@ button:focus {
 .project-section {
   position: relative !important;
   background-image: var(--section-background-color) !important;
-  color: #f3f3f3!important;
+ 
 }
-
 .project-card {
   padding-top: 50px !important;
   padding-bottom: 50px !important;
@@ -96,13 +99,13 @@ button:focus {
 .home-section {
   position: relative !important;
   background-image: var(--section-background-color) !important;
-  color: #f3f3f3!important;
+
 }
 
 .home-about-description {
   padding-top: 50px !important;
   padding-bottom: 20px !important;
-  text-align: center !important;
+
 }
 
 .home-about-body {
@@ -110,7 +113,6 @@ button:focus {
 }
 
 .home-about-social {
-  text-align: center !important;
   background-image: var(--section-background-color) !important;
 }
 
@@ -125,7 +127,7 @@ button:focus {
   display: inline-block !important;
   width: 40px !important;
   height: 40px !important;
-  text-align: center !important;
+
   font-size: 1.2em !important;
   line-height: 2em !important;
   background: rgba(255, 255, 255, 0.972) !important;
@@ -198,7 +200,11 @@ button:focus {
 .about-section{
   position: relative !important;
   background-image: var(--section-background-color) !important;
-  color: #f3f3f3!important;
+}
+
+.about-card-view{
+  background-color: transparent !important;
+  list-style-position: inside;
 }
 .tech-icons {
   font-size: 4.5em !important;
