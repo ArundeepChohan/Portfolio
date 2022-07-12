@@ -17,7 +17,7 @@ function Projects() {
                     Here are a few projects I've worked on recently.
                 </p>
                 <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-                    <Col md={12} className="project-card">
+                    <Col md={4} className="project-card">
                         <ProjectCard
                             isBlog={false}
                             imgPath={medImg}
@@ -28,24 +28,24 @@ function Projects() {
                             demoLink="https://www.youtube.com/watch?v=ZZBRlaxbcLM"
                         />
                     </Col>
-                    <Col md={12} className="project-card">
+                    <Col md={4} className="project-card">
                         <ProjectCard
                             isBlog={false}
                             imgPath={patientImg}
                             title="Porton Health's Patient App"
-                            description="This is a dashboard for their users."
+                            description="This is a dashboard for their users which is HIPAA compliant that allows users to book appointments while using the Oscar EMR app."
                             stack="Mern Stack, Material UI and Axios."
                             ghLink=""
                             demoLink="https://patient-dev.portonhealth.com/dashboard"
                         />
                     </Col>
-                    <Col md={12} className="project-card">
+                    <Col md={4} className="project-card">
                         <ProjectCard
                             isBlog={false}
                             imgPath={instaworkImg}
                             title="Instawork"
                             description="A team member application to list, add and edit users."
-                            stack="Mern stack with UnitTest."
+                            stack="Mern Stack with UnitTest."
                             ghLink="https://github.com/ArundeepChohan/Instaworks-Fall-Internship-2022"
                             demoLink=""
                         />

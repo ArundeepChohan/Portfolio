@@ -1,5 +1,5 @@
-html{
-  color: #f3f3f3;
+body{
+  
   margin:0px;
   height:100vh;
   --section-background-color: linear-gradient(
@@ -25,6 +25,7 @@ button:focus {
 .project-section {
   position: relative !important;
   background-image: var(--section-background-color) !important;
+  color: #f3f3f3!important;
 }
 
 .project-card {
@@ -37,7 +38,6 @@ button:focus {
 
 .project-card-view {
   box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
-  color: white !important;
   background-color: transparent !important;
   opacity: 0.9 !important;
   transition: all 0.5s ease 0s !important;
@@ -60,7 +60,6 @@ button:focus {
 .blog-card-view {
   background-color: transparent !important;
   box-shadow: 0 3px 3px 2px rgba(145, 77, 161, 0.459) !important;
-  color: white !important;
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
 }
@@ -97,7 +96,7 @@ button:focus {
 .home-section {
   position: relative !important;
   background-image: var(--section-background-color) !important;
-
+  color: #f3f3f3!important;
 }
 
 .home-about-description {
@@ -194,4 +193,32 @@ button:focus {
 
 .Avatar{
   border-radius: 50%;
+}
+
+.about-section{
+  position: relative !important;
+  background-image: var(--section-background-color) !important;
+  color: #f3f3f3!important;
+}
+.tech-icons {
+  font-size: 4.5em !important;
+  margin: 15px !important;
+  padding: 10px !important;
+  opacity: 0.93 !important;
+  border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+  vertical-align: middle !important;
+  text-align: center !important;
+  border-radius: 5px !important;
+  display: table !important;
+  box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
+  overflow: hidden !important;
+  transition: all 0.4s ease 0s !important;
+}
+.tech-icons:hover {
+  transform: scale(1.05) !important;
+  overflow: hidden !important;
+  border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
+}
+.tech-icon-images {
+  line-height: 1.6 !important;
 }

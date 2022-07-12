@@ -1,8 +1,13 @@
 import React from 'react';
-
+import { Container, Row, Col } from "react-bootstrap";
+import StarParticle from "../components/StarParticle";
+import TechStack from "../components/TechStack";
 function About() {
     return (
-        <h1>this is the about page</h1>
+        <Container fluid className="about-section">
+            <StarParticle />
+            <TechStack />
+        </Container>
     );
 }
 
