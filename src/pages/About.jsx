@@ -11,7 +11,6 @@ function About() {
     return (
         <Container fluid className="about-section">
             <StarParticle />
-            <Container>
                 <Row>
                     <h1 >
                         About <span className="purple"> Me </span> 
@@ -60,8 +59,6 @@ function About() {
                 </h1>
 
                 <ToolStack />
-                
-            </Container>
         </Container>
     );
 }
