@@ -205,6 +205,7 @@ button:focus {
 .about-card-view{
   background-color: transparent !important;
   list-style-position: inside;
+  border:0px !important;
 }
 .tech-icons {
   font-size: 4.5em !important;
@@ -227,4 +228,9 @@ button:focus {
 }
 .tech-icon-images {
   line-height: 1.6 !important;
+}
+
+.vertical-timeline-element-content.bounce-in{
+  background-color: transparent !important;
+
 }
