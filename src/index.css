@@ -99,7 +99,6 @@ button:focus {
 .home-section {
   position: relative !important;
   background-image: var(--section-background-color) !important;
-
 }
 
 .home-about-description {

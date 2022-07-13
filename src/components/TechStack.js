@@ -16,6 +16,9 @@ import {
 function TechStack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+      <h1 className="project-heading">
+        Tech <strong className="purple">Skillset </strong>
+      </h1>
       <Col xs={4} md={2} className="tech-icons">
         <CgCPlusPlus />
       </Col>

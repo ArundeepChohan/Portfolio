@@ -59,63 +59,63 @@ function Home() {
                 </Row>
                 <Row>
                     <Col md={12} className="home-about-social">
-                    <h1>FIND ME ON</h1>
-                    <p>
-                        Feel free to <span className="purple">connect </span>with me
-                    </p>
-                    <ul className="home-about-social-links">
-                        
-                        <li className="social-icons">
-                            <a
-                                href="https://github.com/arundeepchohan"
-                                target="_blank"
-                                rel="noreferrer"
-                                className="icon-colour  home-social-icons"
-                            >
-                            <AiFillGithub />
-                            </a>
-                        </li>
-                        <li className="social-icons">
-                            <a
-                                href="mailto:arundeepchohan2009@hotmail.com"
-    
-                                className="icon-colour  home-social-icons"
-                            >
-                            <AiOutlineMail/>
-                            </a>
-                        </li>
-                        <li className="social-icons">
-                            <a
-                                href="https://www.linkedin.com/in/arundeepchohan"
-                                target="_blank"
-                                rel="noreferrer"
-                                className="icon-colour  home-social-icons"
-                            >
-                            <FaLinkedinIn />
-                            </a>
-                        </li>
-                        <li className="social-icons">
-                            <a
-                                href="https://stackoverflow.com/users/9901261/arundeep-chohan"
-                                target="_blank"
-                                rel="noreferrer"
-                                className="icon-colour  home-social-icons"
-                            >
-                            <FaStackOverflow />
-                            </a>
-                        </li>
-                        <li className="social-icons">
-                            <a
-                                href="https://arundeepchohan.wordpress.com/"
-                                target="_blank"
-                                rel="noreferrer"
-                                className="icon-colour  home-social-icons"
-                            >
-                            <ImBlog />
-                            </a>
-                        </li>
-                        
-                    </ul>
+                        <h1>FIND ME ON</h1>
+                        <p>
+                            Feel free to <span className="purple">connect </span>with me
+                        </p>
+                        <ul className="home-about-social-links">
+                            
+                            <li className="social-icons">
+                                <a
+                                    href="https://github.com/arundeepchohan"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="icon-colour  home-social-icons"
+                                >
+                                <AiFillGithub />
+                                </a>
+                            </li>
+                            <li className="social-icons">
+                                <a
+                                    href="mailto:arundeepchohan2009@hotmail.com"
+        
+                                    className="icon-colour  home-social-icons"
+                                >
+                                <AiOutlineMail/>
+                                </a>
+                            </li>
+                            <li className="social-icons">
+                                <a
+                                    href="https://www.linkedin.com/in/arundeepchohan"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="icon-colour  home-social-icons"
+                                >
+                                <FaLinkedinIn />
+                                </a>
+                            </li>
+                            <li className="social-icons">
+                                <a
+                                    href="https://stackoverflow.com/users/9901261/arundeep-chohan"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="icon-colour  home-social-icons"
+                                >
+                                <FaStackOverflow />
+                                </a>
+                            </li>
+                            <li className="social-icons">
+                                <a
+                                    href="https://arundeepchohan.wordpress.com/"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="icon-colour  home-social-icons"
+                                >
+                                <ImBlog />
+                                </a>
+                            </li>
+                            
+                        </ul>
                     </Col>
                 </ Row>
             </Container>

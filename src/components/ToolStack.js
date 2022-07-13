@@ -10,6 +10,10 @@ import {
 function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+      <h1 className="project-heading">
+        Tool <strong className="purple">Stack </strong>
+      </h1>
+
       <Col xs={4} md={2} className="tech-icons">
         <SiLinux />
       </Col>
