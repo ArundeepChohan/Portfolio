@@ -15,7 +15,8 @@ function AboutCard() {
                         <p>
                             Hi Everyone, I am <span className="purple">Arundeep Chohan </span>
                             from <span className="purple"> Vancouver, BC, Canada.</span>
-                            <br />I hail from <span className="purple">Langara</span> with a <span className="purple"> Computer Science </span> Degree.
+                            <br />
+                            I graduated from <span className="purple">Langara</span> with a <span className="purple"> Computer Science </span> Degree.
                             <br />
                             <br />
                             Apart from coding, some other activities that I love to do!

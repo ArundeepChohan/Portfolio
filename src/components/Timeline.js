@@ -16,8 +16,8 @@ function Timeline() {
                         date="September 2016 - September 2019"
                         iconStyle={{ background: '#c770f0', color: '#fff' }}      
                     >
-                        <h3 className="vertical-timeline-element-title">Computer Science</h3>
-                        <h4 className="vertical-timeline-element-subtitle">Associate's Degree</h4>
+                        <h3 className="vertical-timeline-element-title">Associate's Degree of Computer Science</h3>
+
                         <p>Langara College</p>
                     </VerticalTimelineElement>
                     <VerticalTimelineElement

@@ -5,6 +5,7 @@ import TechStack from "../components/TechStack";
 import ToolStack from "../components/ToolStack";
 import AboutCard from "../components/AboutCard";
 import Timeline from "../components/Timeline";
+import Events from "../components/Events";
 
 function About() {
     return (
@@ -13,6 +14,7 @@ function About() {
             <Container>
                 <AboutCard />
                 <Timeline />
+                <Events />
                 <TechStack />              
                 <ToolStack />
             </Container>
