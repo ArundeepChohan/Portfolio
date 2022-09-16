@@ -4,6 +4,7 @@ import ProjectCard from '../components/ProjectCard';
 import medImg from "../images/MedicalSite.png";
 import patientImg from "../images/PatientApp.png";
 import instaworkImg from "../images/Instawork.png";
+import parkingLotImg from "../images/ParkingLot.png"
 import StarParticle from "../components/StarParticle";
 function Projects() {
     return (
@@ -47,6 +48,17 @@ function Projects() {
                             description="A team member application to list, add and edit users."
                             stack="Mern Stack with UnitTest."
                             ghLink="https://github.com/ArundeepChohan/Instaworks-Fall-Internship-2022"
+                            demoLink=""
+                        />
+                    </Col>
+                    <Col md={4} className="project-card">
+                        <ProjectCard
+                            isBlog={false}
+                            imgPath={parkingLotImg}
+                            title="Parking Lot Booker"
+                            description="Uses Python and Opencv to read a video and determine if parking spots are booked from a database."
+                            stack="Opencv, Python and PyQT6"
+                            ghLink="https://github.com/ArundeepChohan/Parking-Lot-Booker"
                             demoLink=""
                         />
                     </Col>

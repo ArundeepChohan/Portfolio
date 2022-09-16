@@ -17,7 +17,7 @@ function Events() {
                         date="April, 6, 2019"
                         iconStyle={{ background: '#c770f0', color: '#fff' }}      
                         >
-                        <h3 className="vertical-timeline-element-title">Easy Markit Hackathon(2nd)</h3>
+                        <h3 className="vertical-timeline-element-title">Easy Markit Hackathon (2nd)</h3>
                         <p>Machine learning to determine patient visitation percentage.</p>
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
@@ -25,7 +25,7 @@ function Events() {
                         date="November, 21, 2019"
                         iconStyle={{ background: '#c770f0', color: '#fff' }}      
                         >
-                        <h3 className="vertical-timeline-element-title">Lighthouse Lab 21 Day Challenge(10th)</h3>
+                        <h3 className="vertical-timeline-element-title">Lighthouse Lab 21 Day Challenge (10th)</h3>
                         <p>Map, Reduce, Filter functions using ES6.</p>
                     </VerticalTimelineElement>     
                     <VerticalTimelineElement
