@@ -4,7 +4,8 @@ import ProjectCard from '../components/ProjectCard';
 import medImg from "../images/MedicalSite.png";
 import patientImg from "../images/PatientApp.png";
 import instaworkImg from "../images/Instawork.png";
-import parkingLotImg from "../images/ParkingLot.png"
+import parkingLotImg from "../images/ParkingLot.png";
+import visualizerImg from "../images/2dVisualizer.png"
 import StarParticle from "../components/StarParticle";
 function Projects() {
     return (
@@ -59,9 +60,21 @@ function Projects() {
                             description="Uses Python and Opencv to read a video and determine if parking spots are booked from a database."
                             stack="Opencv, Python and PyQT6"
                             ghLink="https://github.com/ArundeepChohan/Parking-Lot-Booker"
-                            demoLink=""
+                            demoLink="https://youtu.be/dnm-XynKzc4"
                         />
                     </Col>
+                    <Col md={4} className="project-card">
+                        <ProjectCard
+                            isBlog={false}
+                            imgPath={visualizerImg}
+                            title="2d Data Visualizer"
+                            description="2d visualizer of common algorithms like Quick Sort and Pathfinding."
+                            stack="Python and PyQT6"
+                            ghLink="https://github.com/ArundeepChohan/2d-Data-Algorithms"
+                            demoLink="https://youtu.be/C3dfFmdAdWU"
+                        />
+                    </Col>
+                   
                 </Row>
             </Container>
         </Container>
